@@ -1,10 +1,10 @@
 
 #!/usr/bin/env python3
 """
-Calc Visualizer: Random functions with derivative stepping
+Quick Derivatives Practice: Random functions with derivative stepping
 
 Usage:
-  python calc_visualizer.py
+  python quick_practice.py
 
 Controls (when the plot window is focused):
   Space / Enter / Right Arrow: advance view (f → f' → f'')
@@ -218,6 +218,11 @@ class CalcVisualizer:
         self.fig, self.ax = plt.subplots()
         self.text_help = None
         self._plot_current()
+
+        try:
+            self.fig.canvas.manager.set_window_title("Derivatives (Quick Practice) | Denver Clark 2025 | seperet.com")
+        except Exception:
+            pass
 
         self.cid_key = self.fig.canvas.mpl_connect('key_press_event', self.on_key)
 
