@@ -1,6 +1,13 @@
 # Derivatives
 
-For practice. Generates a random function, and each keypress steps the plot through f(x) → f′(x) → f″(x).
+Generates a random function, and each keypress steps the plot through f(x) → f′(x) → f″(x).
+
+> [!Note]
+>
+> Mostly for practice and personal use. As in... **there are probably bugs.**
+>
+
+Generates a random function, and each keypress steps the plot through f(x) → f′(x) → f″(x).
 
 ## Controls (when the plot window is focused)
 
