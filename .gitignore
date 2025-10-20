@@ -1,0 +1,15 @@
+# IGNORE
+# ------------------------------
+
+# FOLDERS
+__pycache__/
+logs/
+
+# ENV RELATED
+*.py[cod]
+*.pyo
+.env
+
+# TXT and LOGS
+*.log
+*.txt
